@@ -3,6 +3,7 @@
 
 int function(int x){
 	x=x-2;
+	while(x>0) x=function(x);
 	return x;
 }
 
